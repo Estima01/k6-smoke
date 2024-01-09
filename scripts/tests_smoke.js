@@ -11,7 +11,7 @@ import { htmlReport } from './bundle.js'
 
 export function handleSummary(data) {
     return {
-        'report_smoke.html': htmlReport(data)
+        'index.html': htmlReport(data)
     }
 }
 
